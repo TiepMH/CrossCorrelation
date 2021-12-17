@@ -6,7 +6,7 @@ To confirm the correctness of my code, I compare the cross-correlation values ob
 
 It is shown that the results from my functions match up with the Matlab's result.
 
-### Please look at "**_ReadMe.pdf_**" for more information.
+### Please read "**_ReadMe.pdf_**" for more information.
 
 ---
 Visualization with Matlab:
