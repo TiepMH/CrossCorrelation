@@ -1,14 +1,11 @@
 %% This example demonstrates how to build a cross-corr. function without using Matlab's xcorr function
-
-
 clear all; clc;
 
 x   = [1.2, 0.7, -0.6, 1.4, -1.1, 0.3, 1.8, -0.2, 1.2];
 y   = [0.5, 2.2, 0.7, 1, -0.3, 1.4, 1.5, 0.1, -0.8, -1.1];
 
-
 %% Using my function
-[corr, lag] = corr_ALL_lags(x, y);
+[corrs, lags] = corr_ALL_lags(x, y);
 
 %% Using the Matlab built-in function
 [corr_builtIn, lag_builtIn] = xcorr(x, y);
@@ -16,9 +13,9 @@ y   = [0.5, 2.2, 0.7, 1, -0.3, 1.4, 1.5, 0.1, -0.8, -1.1];
 %% Compare the results
 figure()
 sgtitle("Compare my function to Matlab's xcorr", 'fontsize', 15)
-plot(lag, corr, 'bo', 'LineWidth', 1.4)
+plot(lag_builtIn, corr_builtIn, 'rx', 'LineWidth', 1.4, 'MarkerSize', 16)
 hold on
-plot(lag_builtIn, corr_builtIn, 'r--+', 'LineWidth', 1.2)
+plot(lags, corrs, '--bo', 'LineWidth', 1.4)
 grid on
 xlabel('Lag', 'fontsize', 12)
 ylabel('Cross--correlation', 'fontsize', 12)
