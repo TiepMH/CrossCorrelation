@@ -9,7 +9,7 @@ It is shown that the results from my functions match up with the Matlab's result
 ---
 Visualization with Matlab:
 
-<img src="https://github.com/TiepMH/CrossCorrelation/blob/main/illustration/4_confirm_correctness.png" width="50%" height="50%">
+<img src="https://github.com/TiepMH/CrossCorrelation/blob/main/illustration/4_CrossCorrelation_in_Matlab.png" width="54%" height="54%">
 
 ---
 Visualization with Python:
