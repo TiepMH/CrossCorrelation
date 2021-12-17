@@ -4,7 +4,9 @@ In this repository, I provide both Matlab code and Python code to demonstrate th
 
 To confirm the correctness of my code, I compare the cross-correlation values obtained by using my user-defined functions with the Matlab's built-in function (aka xcorr).
 
-It is shown that the results from my functions match up with the Matlab's result
+It is shown that the results from my functions match up with the Matlab's result.
+
+### Please look at "**_ReadMe.pdf_**" for more information.
 
 ---
 Visualization with Matlab:
