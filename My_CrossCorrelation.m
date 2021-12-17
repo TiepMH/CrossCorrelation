@@ -19,7 +19,7 @@ plot(lags, corrs, '--bo', 'LineWidth', 1.4)
 grid on
 xlabel('Lag', 'fontsize', 12)
 ylabel('Cross--correlation', 'fontsize', 12)
-legend("My function", "Matlab's built-in function xcorr", ...
+legend("Matlab's built-in function xcorr", "My function", ...
       'fontsize', 10, 'Location', 'southeast')
 
 %% Local functions
